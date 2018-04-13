@@ -1,0 +1,25 @@
+\section{Conclusión}
+
+En concuclusion podemos decir que este trabajo nos permitio aprender y volcarnos en muchos aspectos distintos,
+por ejemplo la programacion con SIMD y el procesamiento de matrices en assembler asi como en el desarrollo
+de un informe profundo de experimentacion y analisis.
+
+
+Se puede ver claramente lo que se buscaba sobre performance del programa
+, ademas de poder justificarlo con pruebas y experimentos,
+efectivamente se nota la mejora que causa el uso de la metodologia SIMD y assembler cuando se trata de
+implementaciones que necesitan el procesamiento sistematico de muchos datos con caracteristicas iguales.
+
+
+Tambien descubrimos con la implementacion de lin_solve (lin_solve_largo)
+que no siempre más paralelizacion y mas trabajo por ciclo lleva a una mejoria temporal
+sino que es mas importente aprovechar bien la logica de la memoria cache y no realizar
+saltos lejanos en memoria en cada iteracion, como se penso en esta funcion en un principio.
+Otro problema que encontramos fue que no se puedo sacar una conclusion clara de las tablas de diferencias
+ni sobre por que los tests presentan el comportamiento particular mostrado en los resultados.
+Quizas lo necesario seria mas conocimiento profundo sobre como trabaja el programa en general.
+
+
+Cabe aclarar que este trabajo tambien sirvio como primer informe en la carrera de 2 integrantes del grupo, lo cual
+aporto para lograr que sea una experiencia en la que se aprendio mucho sobre como se arman, revisan
+y se desarrollan informes de investigacion.

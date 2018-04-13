@@ -1,0 +1,33 @@
+\section{Introducción}
+
+El trabajo realizado implementa la simulacion de flujo de fluidos basada en las
+ecuaciones de Navier-Stokes, la eleccion de utilizar estas ecuaciones es porque
+se consigue un resultado que no es numericamente preciso pero es lo
+suficientemente estable, simple y fiel a la realidad como para dejar ver lo que
+este trabajo intenta observar.
+
+
+
+El objetivo final es poder observar las
+diferencias de rendimiento de programas en codigo en C comparados con la misma
+logica pero implementada en Assembler utilizando el set de instrucciones SSE
+propio de los procesadores intel.
+
+
+
+En principio se explican las decisiones de implementacion del codigo, ya sean de
+comodidad y simpleza o por mejoria de rendimiento, asi como tambien se habla
+sobre intentos fallidos por intentar mejorar la performance al utilizar
+extensivamente la metodologia SIMD, pero encontrandonos con inconvenientes
+inesperados. Tambien se puede observar que es lo que efectivamente realiza el
+codigo y como esto influyó en las decisiones tomadas.
+
+
+
+Una vez en claro como funciona el programa y porque se decidio hacerlo asi, se
+muestra la experimentacion exhaustiva que se hizo para medir las diferencias de
+tiempos entre todo el trabajo con las funciones en C en comparacion con todas
+las funciones nuevas en assembler, esto en relacion con el rendimiento comparado
+entre cada funcion en C con su contraparte en assembler. Con todo esto se puede
+ver claramente que implementacion es mas rapida asi como distinguir que
+funciones son las que hacen la mayor diferencia en general.

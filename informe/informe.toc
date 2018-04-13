@@ -1,0 +1,15 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {2}Desarrollo}{4}
+\contentsline {subsection}{\numberline {2.1}solver_lin_solve}{4}
+\contentsline {subsection}{\numberline {2.2}solver_set_bnd}{7}
+\contentsline {subsection}{\numberline {2.3}solver_project}{8}
+\contentsline {section}{\numberline {3}Resultados}{10}
+\contentsline {subsection}{\numberline {3.1}Tiempos}{10}
+\contentsline {subsubsection}{\numberline {3.1.1}Programa total}{10}
+\contentsline {subsubsection}{\numberline {3.1.2}Una funci\IeC {\'o}n en assembler a la vez}{11}
+\contentsline {subsubsection}{\numberline {3.1.3}solver\_lin\_solve}{12}
+\contentsline {subsubsection}{\numberline {3.1.4}solver_set\_bnd}{13}
+\contentsline {subsubsection}{\numberline {3.1.5}solver_project}{14}
+\contentsline {subsection}{\numberline {3.2}Diferencias}{15}
+\contentsline {section}{\numberline {4}Conclusi\IeC {\'o}n}{18}
